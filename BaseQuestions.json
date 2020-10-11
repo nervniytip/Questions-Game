@@ -1,0 +1,70 @@
+[
+       {
+        "Answer1": "3",
+        "Answer2": "0",
+        "Answer3": "2",
+        "Correct_answer": "5",
+        "Question": "Сколько пальцев у человека?"
+    }, {
+        "Answer1": "78",
+        "Answer2": "100",
+        "Answer3": "66",
+        "Correct_answer": "60",
+        "Question": "Сколько секунд в минуте?"
+    }, {
+        "Answer1": "2",
+        "Answer2": "0",
+        "Answer3": "10",
+        "Correct_answer": "3",
+        "Question": "Сколько цветов на флаге России?"
+    }, {
+        "Answer1": "2000 г.",
+        "Answer2": "1992 г.",
+        "Answer3": "1945 г.",
+        "Correct_answer": "1991 г.",
+        "Question": "Когда распалось СССР?"
+    }, {
+        "Answer1": "0",
+        "Answer2": "12",
+        "Answer3": "8",
+        "Correct_answer": "4",
+        "Question": "Сколько будет 2+2=?"
+    }, {
+        "Answer1": "Индийский",
+        "Answer2": "Атлантический",
+        "Answer3": "Северный",
+        "Correct_answer": "Тихий",
+        "Question": "Самый большой океан на земле?"
+    }, {
+        "Answer1": "Манчестер",
+        "Answer2": "Ливерпуль",
+        "Answer3": "Париж",
+        "Correct_answer": "Лондон",
+        "Question": "Столица Англии?"
+    }, {
+        "Answer1": "Владивосток",
+        "Answer2": "Казань",
+        "Answer3": "Саратов",
+        "Correct_answer": "Москва",
+        "Question": "Столица России??"
+    }, {
+        "Answer1": "2",
+        "Answer2": "5",
+        "Answer3": "1",
+        "Correct_answer": "4",
+        "Question": "Сколько времен года?"
+    }, {
+        "Answer1": "Ом",
+        "Answer2": "Градусах",
+        "Answer3": "Вольт",
+        "Correct_answer": "Ампер",
+        "Question": "В чем измеряется сила тока?"
+    }, {
+        "Answer1": "16",
+        "Answer2": "20",
+        "Answer3": "8",
+        "Correct_answer": "12",
+        "Question": "Сколько граней у додекаэдра?"
+    }
+
+]
