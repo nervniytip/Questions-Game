@@ -9,11 +9,12 @@ namespace Questions_Game
     // сделать загрузку для новой игры и для сохранений!
     class JsonSerializer : ISerializer
     {
-        private const string path = @"BaseQuestions.json";  // База
+        private const string path = @"../../../BaseQuestions.json";  // База
+        private const string userPath = @"../../../UserSave.json";
         public void Save(List<QuestionModel> list)
         {
             DataContractJsonSerializer serializer = new DataContractJsonSerializer(typeof(List<QuestionModel>));
-            using (FileStream fileStream = new FileStream("UserSave.json", FileMode.Create))
+            using (FileStream fileStream = new FileStream(userPath, FileMode.Create))
             {
                 serializer.WriteObject(fileStream, list);
             }
@@ -34,7 +35,7 @@ namespace Questions_Game
         {
             List<QuestionModel> list = new List<QuestionModel>();
             DataContractJsonSerializer serializer = new DataContractJsonSerializer(typeof(List<QuestionModel>));
-            using (FileStream fileStream = new FileStream("UserSave.json", FileMode.Open))
+            using (FileStream fileStream = new FileStream(userPath, FileMode.Open))
             {
                 list = serializer.ReadObject(fileStream) as List<QuestionModel>;
             }
